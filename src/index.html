@@ -10,9 +10,9 @@
 </head>
 <body>
   <section class="hero pb-20" style="background: linear-gradient(121.04deg, #F6F8FB 70%, rgba(234, 235, 238, 0) 152.78%);">
-    <div class="hero-container container mx-auto py-7 px-6">
+    <div class="hero-container container mx-auto py-7 px-6  ">
       <nav class=" flex justify-between items-center">
-        <img class="h-5" src="../src/assets/svg/logo.svg" alt="">
+        <img class="h-5 sm:h-[20px]" src="../src/assets/svg/logo.svg" alt="">
   
       <div class="left-container flex justify-between items-center space-x-4 ">
           <button class=" py-2 px-4 font-sm bg-[#CCCCFF] rounded-[32px] text-sm lg:text-base hidden md:block">
@@ -25,13 +25,13 @@
         </div>
       </nav>
   
-      <section class="pt-20 text-center" >
+      <section class="pt-20 text-center sm:pt-24" >
   
-          <h1 class="h1 font-inter font-bold text-4xl leading-[40px] text-[#333333]">Building AI products that reshape the globe</h1>
-          <p class="h2 font-inter font-light text-xs mt-4  text-[#999999]">We focus on using Artificial Intelligence (AI) smart products based on our client's needs</p>
+          <h1 class="h1 font-inter font-bold text-4xl leading-[40px] text-[#333333] sm:text-5xl sm:">Building AI products <br class="hidden sm:block">that reshape the <br class="hidden sm:block"> globe</h1>
+          <p class="h2 font-inter font-light text-xs sm:text-sm mt-4 sm:mt-8  text-[#999999]">We focus on using Artificial Intelligence (AI) smart products based on our client's needs</p>
   
           
-          <img class="mt-20"  style="mix-blend-mode: darken;" src="../src/assets/svg/hero-shuttercock.png" alt="">
+          <img class="mt-20  sm:w-90"  style="mix-blend-mode: darken;" src="../src/assets/svg/hero-shuttercock.png" alt="">
   
         <form class="border-[1px] rounded-[32px] bg-[#FFFFFF] mt-20">
           <div class="input-container flex justify-between items-center p-1">
@@ -46,11 +46,11 @@
             </div>
           </form>
             
-        <div class="sponsored-container flex mt-6 space-x-4">
-          <p class=" font-inter text-[10px] text-[#999999] ">Sponsored by:</p>
-          <img class="w-14" src="../src/assets/svg/paypal-logo.png" alt="">
-          <img class="w-14" src="../src/assets/svg/paypal-logo.png" alt="">
-          <img class="w-14" src="../src/assets/svg/paypal-logo.png" alt="">
+        <div class="sponsored-container flex mt-6 space-x-4 sm:space-x-12 sm:mt-14">
+          <p class=" font-inter text-[10px] sm:text-[14px] text-[#999999] ">Sponsored by:</p>
+          <img class="w-14 sm:w-20" src="../src/assets/svg/paypal-logo.png" alt="">
+          <img class="w-14 sm:w-20" src="../src/assets/svg/paypal-logo.png" alt="">
+          <img class="w-14  sm:w-20" src="../src/assets/svg/paypal-logo.png" alt="">
         </div>
   
       </section>
@@ -58,12 +58,12 @@
   </section>
   
   
-  <div class="container mx-auto py-7 px-7 pt-10 ">
+  <div class="container mx-auto py-7 px-7 pt-10 sm:pt-12">
     <section class="About us rounded-[34px] w-full bg-center bg-no-repeat bg-cover px-5" style="background-image: url('../src/assets/svg/about-us\ frame.png');">
       <div class="text-container flex-col text-center pb-12">
         <p class=" font-inter text-[10px] text-[#FFFFFF] pt-10">ABOUT US</p>
         <h1 class=" font-inter font-bold text-[#FFFFFF] text-lg pt-8">AI at your fingertips</h1>
-        <p class=" font-inter text-[10px] text-[#FFFFFF] pt-6  leading-[20px]">At Evon AI, we leverage AI and machine learning, maximizing productivity for our clients by working on smart technologies. We also enhance our products and solutions with AI therefore delivering high level  intelligence in all products.</p>
+        <p class=" font-inter text-[10px] text-[#FFFFFF] pt-6  leading-[20px] sm:leading-[40px]">At Evon AI, we leverage AI and machine learning, maximizing productivity for our clients by working on smart technologies. We also enhance our products and solutions with AI therefore delivering high level  intelligence in all products.</p>
         <button class="text-[10px] bg-[#FFFFFF] text-[#1E1E24] rounded-full p-2 mt-5 ">
           Read more >
         </button>
@@ -73,51 +73,62 @@
   <section class="our-service pt-10">
 
     <div class="text-container mt-10 pb-14 ">
-      <h1 class=" font-bold text-[8px] text-[#00BCDD]">OUR SERVICES</h1>
-      <h1 class="font-bold text-[18px] text-[#333333] mt-3 ">Lorem ipsum dolor sit <br> amet, consectetur as</h1>
-      <p class=" font-inter text-[10px] text-[#999999] mt-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <button class=" font-inter text-[10px] text-[#00005C]">
+      <h1 class=" font-bold text-[8px] sm:text-[10px] text-[#00BCDD]">OUR SERVICES</h1>
+      <h1 class="font-bold text-[18px] sm:text-[22px] text-[#333333] mt-3 ">Lorem ipsum dolor sit <br> amet, consectetur as</h1>
+      <p class=" font-inter text-[10px] sm:text-[12px] text-[#999999] mt-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <button class=" font-inter text-[10px] sm:text-[12px] text-[#00005C]">
         read more >
       </button>
 
-      <img class="mt-7" src="../src/assets/svg/our services.png" alt="">
+      <img class="mt-7 sm:w-90" src="../src/assets/svg/our services.png" alt="">
 
-    <ol class="flex text-sm text-[#00005C] space-x-8 list-disc mt-10">
+    <ol class=" flex text-xs text-[#00005C] space-x-8 sm:space-x-10 list-disc  mt-10 sm:ml-6">
       <li>Lorem Ipsum</li>
       <li>Lorem Ipsum</li>
       <li>Lorem Ipsum</li>
+    
+      <li >Lorem Ipsum</li> 
+      <li >Lorem Ipsum</li>
+      </div>
+      
     </ol>
 
     </div>
 
   </section>
 
+<div class="container mx-auto py-7 px-7 pt-10 sm:pt-12">
   <section class="evonai pt-20 pb-20">
       <div class="text-container text-center">
-        <h1 class=" font-inter font-bold text-[10px] text-[#00BCDD]">EvonAI Brand  Values</h1>
-        <p class="font-inter text-2xl text-[#333333] pt-4">This is why we are different</p>
+        <h1 class=" font-inter font-bold text-[10px] sm:text-[12px] text-[#00BCDD]">EvonAI Brand  Values</h1>
+        <p class="font-inter text-2xl sm:text-[24px] text-[#333333] pt-4">This is why we are different</p>
       </div>
 
-    <div class="img-containers space-y-14 mt-7 sm:grid grid-cols-2">
-      <div class="customization-container col-center text-center">
-          <img class="w-6" src="../src/assets/svg/customization.png" alt="">
+    <div class="img-containers space-y-14 mt-7 sm:items center sm:mt-12 ">
 
-        <div class="text-container mt-4 ">
-          <h1 class="font-bold font-inter text-[10px] text-[#333333] ">Unlimited Customization</h1>
-          <p class="font-inter text-xs text-[#999999] mt-2">Get your blood tests delivered at <br>home collect a sample from the <br> your blood tests.</p>
-        </div>
+    <div class=" flex justify-center space-x-16">
+      <div class="customization-container col-center text-center ">
+      <img class="w-6" src="../src/assets/svg/customization.png" alt="">
+
+    <div class="text-container mt-4 ">
+      <h1 class="font-bold font-inter text-[10px] text-[#333333] ">Unlimited Customization</h1>
+      <p class="font-inter text-xs text-[#999999] mt-2">Get your blood tests delivered at <br>home collect a sample from the <br> your blood tests.</p>
+    </div>
       </div>
 
-      <div class="vector-container col-center text-center">
-          <img class="w-6" src="../src/assets/svg/vector shape.png" alt="">
+    <div class="vector-container col-center text-center  ">
+      <img class="w-6" src="../src/assets/svg/vector shape.png" alt="">
 
-          <div class="text-container mt-4">
-            <h1 class="font-bold font-inter text-[10px] text-[#333333] ">Vector shape & resizable</h1>
-            <p class="font-inter text-xs text-[#999999] mt-2">Get your blood tests delivered at <br>home collect a sample from the <br> your blood tests.</p>
-          </div>
+      <div class="text-container mt-4">
+        <h1 class="font-bold font-inter text-[10px] text-[#333333] ">Vector shape & resizable</h1>
+        <p class="font-inter text-xs text-[#999999] mt-2">Get your blood tests delivered at <br>home collect a sample from the <br> your blood tests.</p>
+      </div>
 
       </div>
 
+    </div>
+
+    <div class=" flex justify-center space-x-16">
       <div class="editing-container col-center text-center">
         <img class="w-6" src="../src/assets/svg/editing freedom.png" alt="">
 
@@ -141,7 +152,9 @@
 
     </div>
 
-    <a href="/" class="block text-center font-inter text-[10px] text-[#00005C] mt-4">
+    </div>
+
+    <a href="/" class="block text-center font-inter text-[10px] text-[#00005C] mt-4 sm:text-[12px] sm:mt-6">
         Learn more >
     </a>
 
@@ -149,19 +162,19 @@
 
   <section class="projects pt-10">
     <div class="text-container text-center">
-      <h1 class=" font-inter font-bold text-[9px] text-[#00BCDD]">RECENT PROJECTS</h1>
-      <p class="font-inter text-[20px] text-[#333333] pt-6">We've done some really cool stuff</p>
+      <h1 class=" font-inter font-bold text-[9px] sm:text-[12px] text-[#00BCDD]">RECENT PROJECTS</h1>
+      <p class="font-inter text-[20px] sm:text-[24px] text-[#333333] pt-6">We've done some really cool stuff</p>
       <p class="font-inter text-[#999999] text-xs mt-4">So far, we have designed products, ranging from hardware to software, that are designed to help people live better and more productive lives.</p>
-      <button class="border-[1px] bg-[#00005C] text-white rounded-full text-xs p-2 mt-6">Our work ></button>
+      <button class="border-[1px] bg-[#00005C] text-white rounded-full text-xs p-2 mt-6 sm:text-sm sm:p-3 sm:m-10">Our work ></button>
     </div>
 
-    <div class="memr-container pt-20">
-      <img  src="../src/assets/svg/memr.png" alt="">
+    <div class="memr-container pt-20 pl-8 ">
+      <img class="" src="../src/assets/svg/memr.png" alt="">
       <div class="text-container mt-14">
           <h1 class=" font-bold font-poppins text-[#00005C] text-[30px]">Lorem ipsum sit oko</h1>
           <h1 class=" font-bold font-poppins text-[30px] text-white" style=" -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black;">Lorem ipsum sit oko</h1>
-          <h1 class=" font-bold font-poppins text-[#999999] text-[30px]">Lorem ipsum sit oko</h1>
-           <h1 class=" font-bold font-poppins text-[#999999] text-[30px]">Lorem ipsum sit oko</h1>
+          <h1 class=" font-bold font-poppins  text-[30px] text-white"style=" -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black;">Lorem ipsum sit oko</h1>
+           <h1 class=" font-bold font-poppins  text-[30px] text-white"style=" -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black;">Lorem ipsum sit oko</h1>
       </div>
 
     </div>
@@ -173,20 +186,45 @@
 <div class="container mx-auto py-7 px-7  ">
   <section class="feedback text-center pt-16">
     <div class="text-container">
-      <h1 class=" font-inter font-bold text-[10px] text-[#00BCDD]">Customer Feedback</h1>
-       <p class="font-inter text-[22px] text-[#333333] pt-6">What clients say about us </p>
+      <h1 class=" font-inter font-bold text-[10px] sm:text-[12px] text-[#00BCDD]">Customer Feedback</h1>
+       <p class="font-inter text-[22px] sm:text-[24px] text-[#333333] pt-6 sm:pt-8">What clients say about us </p>
     </div>
 
-    <div class="imgs-container mt-8 space-y-6 flex-col items-center">
-      
+    <div class="imgs-container mt-8 sm:mt-14 space-y-6 flex-col items-center sm:hidden">
         <img src="../src/assets/svg/firstrow 2.png" alt="">
         <img src="../src/assets/svg/firstrow 3.png" alt="">
         <img src="../src/assets/svg/secondrow 3.png" alt="">
-
   </div>
+
   
 </section>
 </div>
+
+<div class=" hidden sm:block sm:flex sm:space-x-6" >
+  
+  <div class="col-one pt-4">
+    <img class="w-20" src="../src/assets/svg/firstrow edge.png" alt="">
+    <img class="w-20 pt-8" src="../src/assets/svg/secondrow edge.png" alt="">
+  </div>
+
+  <div class="col-two items-center">
+    <img class="w-60" src="../src/assets/svg/firstrow 2.png" alt="">
+    <img class="w-60" src="../src/assets/svg/secondrow 2.png" alt="">
+  </div>
+  
+  <div class="col-three">
+    <img class="w-60" src="../src/assets/svg/firstrow 3.png" alt="">
+    <img class="w-60" src="../src/assets/svg/secondrow 3.png" alt="">
+  </div>
+
+  <div class="col-four">
+    <img class="w-60" src="../src/assets/svg/firstrow 4.png" alt="">
+    <img class="w-60" src="../src/assets/svg/secondrow 4.png" alt="">
+  </div>
+
+</div>
+
+
 
 <footer class=" w-full bg-center bg-no-repeat bg-cover bg-[#1C1F30]"  style="background-image: url('../src/assets/svg/footer\ bg.png');">
   <div class="container mx-auto py-7 px-7  "></div>
