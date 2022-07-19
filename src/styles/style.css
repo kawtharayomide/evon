@@ -739,6 +739,10 @@ video {
   width: 85px;
 }
 
+.w-\[95px\] {
+  width: 95px;
+}
+
 .list-disc {
   list-style-type: disc;
 }
