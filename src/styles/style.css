@@ -936,6 +936,10 @@ video {
   font-family: Poppins;
 }
 
+.font-sans {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -1005,6 +1009,14 @@ video {
   font-size: 7px;
 }
 
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.text-\[35px\] {
+  font-size: 35px;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -1023,6 +1035,10 @@ video {
 
 .leading-\[20px\] {
   line-height: 20px;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
 }
 
 .text-\[\#00005C\] {
@@ -1175,6 +1191,10 @@ video {
     padding-top: 5rem;
   }
 
+  .sm\:text-left {
+    text-align: left;
+  }
+
   .sm\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -1211,6 +1231,14 @@ video {
 
   .sm\:text-\[8px\] {
     font-size: 8px;
+  }
+
+  .sm\:text-\[40px\] {
+    font-size: 40px;
+  }
+
+  .sm\:font-semibold {
+    font-weight: 600;
   }
 
   .sm\:leading-\[40px\] {
@@ -1349,6 +1377,26 @@ video {
     padding-right: 2rem;
   }
 
+  .md\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .md\:px-9 {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
+
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .md\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
   .md\:pt-24 {
     padding-top: 6rem;
   }
@@ -1399,6 +1447,10 @@ video {
 
   .md\:text-\[34px\] {
     font-size: 34px;
+  }
+
+  .md\:text-\[42px\] {
+    font-size: 42px;
   }
 
   .md\:leading-\[28px\] {
@@ -1603,6 +1655,10 @@ video {
     font-size: 8px;
   }
 
+  .lg\:text-\[45px\] {
+    font-size: 45px;
+  }
+
   .lg\:leading-\[24px\] {
     line-height: 24px;
   }
@@ -1716,6 +1772,11 @@ video {
     padding-right: 4rem;
   }
 
+  .xl\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
   .xl\:pt-32 {
     padding-top: 8rem;
   }
@@ -1791,6 +1852,18 @@ video {
 
   .xl\:text-\[10px\] {
     font-size: 10px;
+  }
+
+  .xl\:text-\[48px\] {
+    font-size: 48px;
+  }
+
+  .xl\:font-normal {
+    font-weight: 400;
+  }
+
+  .xl\:font-medium {
+    font-weight: 500;
   }
 }
 
@@ -2003,6 +2076,10 @@ video {
   .\32xl\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .\32xl\:text-\[50px\] {
+    font-size: 50px;
   }
 
   .\32xl\:font-bold {
