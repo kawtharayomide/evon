@@ -1222,6 +1222,10 @@ video {
     margin-top: 2rem;
   }
 
+  .sm\:mt-3 {
+    margin-top: 0.75rem;
+  }
+
   .sm\:block {
     display: block;
   }
@@ -1401,6 +1405,10 @@ video {
 
   .md\:mt-10 {
     margin-top: 2.5rem;
+  }
+
+  .md\:mt-5 {
+    margin-top: 1.25rem;
   }
 
   .md\:block {
@@ -2038,6 +2046,14 @@ video {
 
   .\32xl\:mt-8 {
     margin-top: 2rem;
+  }
+
+  .\32xl\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
+  .\32xl\:mt-5 {
+    margin-top: 1.25rem;
   }
 
   .\32xl\:h-\[900px\] {
