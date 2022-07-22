@@ -1362,6 +1362,18 @@ video {
     height: 24rem;
   }
 
+  .md\:h-\[650px\] {
+    height: 650px;
+  }
+
+  .md\:h-\[60px\] {
+    height: 60px;
+  }
+
+  .md\:h-\[680px\] {
+    height: 680px;
+  }
+
   .md\:w-\[400px\] {
     width: 400px;
   }
@@ -1495,6 +1507,10 @@ video {
     padding-top: 1.25rem;
   }
 
+  .md\:pl-32 {
+    padding-left: 8rem;
+  }
+
   .md\:text-\[20px\] {
     font-size: 20px;
   }
@@ -1555,6 +1571,10 @@ video {
 
   .lg\:mt-6 {
     margin-top: 1.5rem;
+  }
+
+  .lg\:flex {
+    display: flex;
   }
 
   .lg\:h-\[22px\] {
