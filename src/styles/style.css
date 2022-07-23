@@ -1076,6 +1076,14 @@ video {
   font-size: 16px;
 }
 
+.text-\[200px\] {
+  font-size: 200px;
+}
+
+.text-\[100px\] {
+  font-size: 100px;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -1368,6 +1376,22 @@ video {
     font-size: 36px;
   }
 
+  .sm\:text-\[200px\] {
+    font-size: 200px;
+  }
+
+  .sm\:text-\[0px\] {
+    font-size: 0px;
+  }
+
+  .sm\:text-\[150px\] {
+    font-size: 150px;
+  }
+
+  .sm\:text-\[180px\] {
+    font-size: 180px;
+  }
+
   .sm\:font-semibold {
     font-weight: 600;
   }
@@ -1605,6 +1629,14 @@ video {
 
   .md\:text-\[44px\] {
     font-size: 44px;
+  }
+
+  .md\:text-\[250px\] {
+    font-size: 250px;
+  }
+
+  .md\:text-\[200px\] {
+    font-size: 200px;
   }
 
   .md\:leading-\[28px\] {
