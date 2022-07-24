@@ -1880,8 +1880,20 @@ video {
     font-size: 48px;
   }
 
+  .lg\:text-\[220px\] {
+    font-size: 220px;
+  }
+
+  .lg\:text-\[250px\] {
+    font-size: 250px;
+  }
+
   .lg\:font-medium {
     font-weight: 500;
+  }
+
+  .lg\:font-semibold {
+    font-weight: 600;
   }
 
   .lg\:leading-\[24px\] {
@@ -2101,6 +2113,10 @@ video {
 
   .xl\:text-\[52px\] {
     font-size: 52px;
+  }
+
+  .xl\:text-\[270px\] {
+    font-size: 270px;
   }
 }
 
@@ -2343,6 +2359,10 @@ video {
 
   .\32xl\:text-\[60px\] {
     font-size: 60px;
+  }
+
+  .\32xl\:text-\[300px\] {
+    font-size: 300px;
   }
 
   .\32xl\:font-bold {
